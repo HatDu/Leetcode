@@ -47,15 +47,15 @@
 
 1. 当cur=0时，即当前位为0，当前位上的数字仅和高位有关，计算公式：high*digit
 
-   ![](assets\No.43.1.png)
+   ![](./assets/No.43.1.png)
 
 2. 当cur=1时，当前位上1的次数与高位和低位都有关，计算公式：high*digit + low + 1
 
-   ![](assets\No.43.2.png)
+   ![](./assets/No.43.2.png)
 
 3. 当1<cur<10时，1出现的次数仅由high决定，计算公式：(high+1)*digit
 
-   ![](assets\No.43.3.png)
+   ![](./assets/No.43.3.png)
 
 
 
