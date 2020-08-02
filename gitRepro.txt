@@ -1,2 +1,2 @@
-gitee£ºgit@gitee.com:maomao64/Leetcode.git
-github£ºgit@github.com:HatDu/Leetcode.git
+gitee: git@gitee.com:maomao64/Leetcode.git
+github: git@github.com:HatDu/Leetcode.git
