@@ -43,7 +43,7 @@ $$
 
 记dp[i]为第i天时能获取的最大利润，即min为截至到第i天为止股票的最小价格。则会有下列递推公式
 $$
-dp[i] = max{dp[i-1], prices[i]-min}, 0<i<n
+dp[i] = max\{dp[i-1], prices[i]-min\}, 0<i<n
 $$
 初始条件：dp[0] = 0，仅有一天，无法交易
 
