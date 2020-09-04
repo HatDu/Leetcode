@@ -23,3 +23,23 @@
 通过次数82,815
 
 提交次数166,360
+
+```java
+class Solution {
+    public int minArray(int[] numbers) {
+        int l = 0, r = numbers.length - 1;
+
+        while( l < r){
+            int mid = (l + r) >> 1;
+            if (numbers[mid] < numbers[r]) {
+                r = mid;
+            } else if (numbers[mid] > numbers[r]) {
+                l = mid + 1;
+            } else {
+                r -= 1;
+            }
+        }
+        return numbers[l];
+    }
+}
+```
